@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MovieInfo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    </head>
+    <body>
+    
+    <nav class="navbar navbar-default">        
+        <div class="container">
+            <div class="navbar-header">            
+            <a class="navbar-brand" href="index.html">MovieInfo</a>
+        </div>    
+        </div>       
+        
+        <div class="container">            
+            <div id="movie" class="well"></div>           
+        </div>
+        
+
+<!--------- JQUERY SCRIPT INVOKE-------->
+<script	  src="https://code.jquery.com/jquery-3.2.0.min.js"
+			  integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+			  crossorigin="anonymous"></script>
+<!--------- AXIOS SCRIPT INVOKE-------->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    getMovie();
+</script>
+    </body>
+</html>
